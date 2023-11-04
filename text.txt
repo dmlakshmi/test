@@ -1,0 +1,146 @@
+1. java is high level prg  lang and it is developed by james goslene in year 1995  
+   java is a platform independent ,secure ,robusted,and simple lang,portable,
+   java is depend on the 4 principles
+   javac  is a tool  and it is used for compliation of prg we use javac
+2.jdk:java development kit
+      jdk is used for write and execute the prg
+      jdk consist some tools like javac and java
+jvm:java virtual machine
+    jvm is used for execute 
+    jvm is convert source code to byte code
+jre: java runtime environment
+     jre is used for execute
+3.java file :java file are  source file ,
+  class file : class file are byte code, this file  are created when the  java file is created  
+               class file automatically created when java  file is created
+
+4. java ide are:
+   eclipse
+   apache 
+   netbeans 
+   myeclipse
+   xcode ide
+5.variable:
+variable are used to store the data ,
+variable is a container which is used to store the data
+there are two types of variable :local variable ,class variable
+local  variable:local variable are used in inside the method 
+class variable : class variable are used in class level
+
+class variable example: class Vari
+                        {
+                         String name;
+                         int number;
+                         static void name1()
+                         {
+                         }
+
+6. object oriented programming in java :java is a object oriented programming language 
+                                        object oriented means it depend on the object only,and object is a instance of class  
+                                        java is full depend  on object
+7.  exception :arrayBoundoutofIndex exception will throw 
+
+8.data type : data type is a type of data 
+              which defines the  information type
+there are two type:
+primitive data type and non primitive data type
+in primitive there are 8 data type are there:
+int,float,double, char,byte,boolean,long
+non primitive data type are:
+string ,array,tree,
+any user defined name should be a primitive data type
+ example:class Bag
+{
+String name="skybag";
+int noofzips=3;
+char size='s';
+}
+9.dot operator:
+  dot operator are used access static method and static variables
+  dot operator are used access non static method and variables
+ex:System.out.println("");
+   this.name=name;
+10.java features are:
+   simple
+   secure 
+   robusted
+   high level lang
+   method overloading
+   portable
+11.array is collection of similar data types
+   array can be accessed by using array index
+   array can be initalize by using array index 0
+   array is represented by []
+ex:class Items
+{
+int num[]={1,2,3,4};
+String name[]={"abc","bcd"};
+}
+12.class:blueprint of an object, 
+not real word  entity,template, keyword
+collection of object
+object: instance  of class 
+object is real word entity
+ex:class Laptop
+{
+int vowels;
+}
+Laptop is a class name
+13.keywords are reserve word ,which is already prdefined by complier
+int:12 
+folat:123344f
+double:0.00
+this
+new
+char:
+continue
+String
+final
+finally
+byte
+
+ex: this.bag=new bag();
+    this.age=age;
+14.constructor:
+constructor are special method  are used to initalize the object
+constructor name sholud be same as class name 
+constructor types are:default constructor and parameter constructor
+ex: default constructor       parameter constructor
+
+college()                    college(String name)
+{                            {
+this.name=name;               this.name=name;
+}                            } 
+15 main method is static bcz static is a non access specifier
+   bcz main method does not conatin object
+method types:
+static 
+non static
+16.class number
+{
+int arr[]={12,3,2,45,6,7,6}
+System.out.println("the number of elements:"arr[].length);
+}
+ 17. method is block of statement which is used to perform specific task
+method overloading:method overloading means same name  with diffrent parameter 
+                   allows different methods to have the same name, but different signatures 
+ex: 
+class number{  
+static int add(int a)
+{
+System.out.println("number is");
+return a;
+}  
+static int add(int a,int b)
+{
+return b;  
+}  
+class numberstarter
+{  
+public static void main(String[] args)
+{  
+System.out.println(number.add(11));  
+System.out.println(number.add(11,11));  
+}
+}  
+   
